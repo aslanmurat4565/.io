@@ -5,23 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Token Swap ve DEXTools</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tronlink/tronlink@latest"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <h1>Token Swap ve DEXTools Entegrasyonu</h1>
 
-        <!-- Token Swap Bölümü -->
-        <div class="section">
-            <h2>Token Swap</h2>
-            <button id="connect-wallet">Cüzdanı Bağla</button>
-            <button id="swap-tokens">Token Al/Sat</button>
-            <div id="swap-status"></div>
-        </div>
-
         <!-- Buy ve Chart Linkleri -->
         <div class="section">
-            <h2>Buy ve Chart</h2>
             <button id="buy-link">Buy</button>
             <button id="chart-link">Chart</button>
         </div>
@@ -29,10 +20,8 @@
         <!-- DEXTools Buy Chart Modülü -->
         <div class="section">
             <h2>Buy Chart</h2>
-            <iframe src="https://www.dextools.io/app/en/ether/pair-explorer" width="100%" height="400"></iframe>
+            <iframe src="https://www.dextools.io/app/en/ether/pair-explorer" frameborder="0"></iframe>
         </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
